@@ -1,0 +1,19 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "algum serviço",
+    "description": "alguma descrição",
+    "price": 1400,
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.itdg.com.br%2Ftdg%2Fimages%2Frecipes%2F000%2F141%2F054%2F348537%2F348537_original.jpg%3Fmode%3Dcrop%26width%3D710%26height%3D400&imgrefurl=https%3A%2F%2Fwww.tudogostoso.com.br%2Freceita%2F141054-torta-de-banana-banoffee.html&tbnid=w0xRiQCqmT8KUM&vet=12ahUKEwiAkKmG7oP9AhWRuZUCHZL_AVUQMygAegUIARCAAg..i&docid=LUiP319PG2_ntM&w=710&h=400&itg=1&q=banoffee&ved=2ahUKEwiAkKmG7oP9AhWRuZUCHZL_AVUQMygAegUIARCAAg"
+
+}
+
+
+###
+
+GET http://localhost:3000/api/services
+
+###
+
+GET http://localhost:3000/api/services/63e281bdc698de1fd222514d
